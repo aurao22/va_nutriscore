@@ -1,0 +1,10 @@
+TEMP/nutriscore_data_analysis-V0.08.ipynb
+TEMP/nutriscore_pre_traitement_V0.10.py
+TEMP/nutriscore_pre_traitement-V0.16.ipynb
+TEMP/nutriscore_pre_traitement-V0.17.ipynb
+nutriscore_cleans_datas_*.csv
+nutriscore_filtered_countries_*.csv
+data_nutriscore.csv
+columns/*
+.~lock.*
+__pycache__
