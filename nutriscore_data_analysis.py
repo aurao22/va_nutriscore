@@ -21,7 +21,7 @@ nutriscore_colors = {"A":"green", "B":"#AACE73","C":"yellow","D":"orange","E":"r
                      "1.0":"green", "2.0":"yellow","3.0":"orange","4.0":"red", 
                      1.0:"green", 2.0:"yellow",3.0:"orange",4.0:"red", np.nan:"blue"}
 nutriscore_colors_list = ["green", "#AACE73","yellow","orange","red"]
-PLOT_FIGURE_BAGROUNG_COLOR = 'tan'
+PLOT_FIGURE_BAGROUNG_COLOR = 'white'
 PLOT_BAGROUNG_COLOR = PLOT_FIGURE_BAGROUNG_COLOR
 
 # ---------------------------------------------------------------------------------------------
@@ -283,7 +283,7 @@ def display_circles(pcs, n_comp, pca, axis_ranks, labels=None, label_rotation=0,
         if d2 < n_comp:
 
             # initialisation de la figure
-            fig, ax = plt.subplots(figsize=(7,6))
+            fig, ax = plt.subplots(figsize=(10,10))
 
             # détermination des limites du graphique
             if lims is not None :
@@ -372,7 +372,7 @@ def display_factorial_planes(X_projected, n_comp, pca, axis_ranks, labels=None, 
         if d2 < n_comp:
  
             # initialisation de la figure       
-            plt.figure(figsize=(7,6), facecolor=PLOT_FIGURE_BAGROUNG_COLOR)
+            plt.figure(figsize=(18,15), facecolor=PLOT_FIGURE_BAGROUNG_COLOR)
         
             # affichage des points
             if illustrative_var is None:
